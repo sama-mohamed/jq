@@ -1,0 +1,16 @@
+body{
+    background-color: #e6f2ff;
+}
+.B{
+    width: auto;
+}
+#buttons{
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    font-weight:500;
+}
+#buttons:hover{
+    color: white;
+    background-color: #4da6ff;
+}

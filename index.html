@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/jq.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>jquery</title>
+</head>
+<body>
+  <div class="container justify-content-center B">
+    <div class="d-flex">
+      <button type="button" class="btn btn-primary m-3 w-25  shadow p-3 mb-5 bg-body-tertiary rounded b1" id="buttons">IEEE GLOBAL MISSION</button>
+      <button type="button" class="btn btn-primary m-3 w-25 shadow p-3 mb-5 bg-body-tertiary rounded b2 " id="buttons">IEEE GLOBAL VISION</button>
+      <button type="button" class="btn btn-primary m-3 w-25 shadow p-3 mb-5 bg-body-tertiary rounded b3 " id="buttons">IEEE-BUB MISSION</button>
+      <button type="button" class="btn btn-primary m-3 w-25 shadow p-3 mb-5 bg-body-tertiary rounded b4 " id="buttons">IEEE-BUB VISION</button>
+    </div>
+    <div class="d-flex">
+      <div class="mt-5">
+        <h1>IEEE GLOBAL MISSION</h1>
+        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </div>
+      <img src="imgs/Seminar-rafiki.svg" class="imgs w-50" alt="">
+    </div>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $(".b1").click(function(){
+        $("h1").html("IEEE GLOBAL MISSION")
+        $("p").html("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum")
+      })
+      
+      $(".b2").click(function(){
+        $("h1").html("IEEE GLOBAL VISION")
+        $("p").html("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span> Duis aute irure dolor in repr")
+      })
+
+      $(".b3").click(function(){
+        $("h1").html("IEEE-BUB MISSION")
+        $("p").html("a aliqua. Ut enim ad minim veniam, quis nostrud exercitat Duis aute irure dolor in reprehenderit in voluptate velit ")
+      })
+
+      $(".b4").click(function(){
+        $("h1").html("IEEE-BUB VISION")
+        $("p").html("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi")
+      })
+    })
+  </script>
+</body>
+</html>
